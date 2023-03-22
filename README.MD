@@ -11,7 +11,7 @@ npm install eye-rest
 
 
 Installation
-You can install Eye Rest using the following command:
+You can install Eye Rest using the above command:
 
 
 # Usage
@@ -24,9 +24,9 @@ eyeRest();
 By default, Eye Rest will remind you to take a break every 60 seconds (1 minute). You can customize the interval by passing a number (in milliseconds) as an argument to the startTimer function:
 
 
-// Remind to take a break every 30 seconds
+// Remind to take a break every 1 hour
 eyeRest({ breakInterval: 60 * 60 * 1000 });
-When it's time to take a break, Eye Rest will display a notification with the title "Time to take a break" and the message "Hey! Take a break to rest your eyes and stretch your legs."
+When it's time to take a break, Eye Rest will display a notification prompting you to take a break.
 ```
 # License
 Eye Rest is released under the MIT License. See LICENSE for details.
